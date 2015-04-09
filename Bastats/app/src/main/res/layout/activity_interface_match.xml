@@ -1,0 +1,119 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="com.enseirb.pfa.bastats.InterfaceMatch">
+
+   <fragment
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:name="com.enseirb.pfa.bastats.match.FragmentMenuMatch"
+       android:id="@+id/menuMatch"
+       tools:layout="@layout/fragment_menu_match"></fragment>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="10dp"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <fragment
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:name="com.enseirb.pfa.bastats.match.FragmentTeamMatch"
+            android:id="@+id/EquipeA"
+            tools:layout="@layout/fragment_team_match"></fragment>
+
+
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+
+            <fragment
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:name="com.enseirb.pfa.bastats.match.ChronoFragment"
+                android:id="@+id/chronometer"
+                tools:layout="@layout/fragment_chrono"
+                android:layout_gravity="center_horizontal"></fragment>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="40dp"
+                android:text="@string/actions"
+                android:textSize="20sp"
+                android:layout_gravity="center_horizontal" />
+
+            <fragment
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:name="com.enseirb.pfa.bastats.match.FragmentAction2Clicks"
+                android:id="@+id/action2Clicks"
+                tools:layout="@layout/fragment_actions_2clicks"
+                android:layout_gravity="center_horizontal"></fragment>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/terminerMatch"
+                    android:text="End"
+                    android:layout_gravity="center"
+                    android:onClick="endMatch"/>
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/statsMatch"
+                    android:text="Stats"
+                    android:layout_gravity="center"
+                    android:onClick="displayStats"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/history"
+                android:textSize="20sp"
+                android:layout_gravity="center_horizontal" />
+
+            <ListView
+                android:id="@+id/history_listview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:scrollbars="vertical">
+
+            </ListView>
+
+        </LinearLayout>
+
+        <fragment
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:name="com.enseirb.pfa.bastats.match.FragmentTeamMatch"
+            android:id="@+id/EquipeB"
+            tools:layout="@layout/fragment_team_match"></fragment>
+    </LinearLayout>
+
+</LinearLayout>

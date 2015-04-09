@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:gravity="center_vertical"
+    android:layout_height="@dimen/calendrier_row_height">
+
+    <TwoLineListItem xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dip"
+        android:minHeight="?android:attr/listPreferredItemHeight"
+        android:mode="twoLine">
+
+        <TextView android:id="@+id/pseudoPlayer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:text="Player name"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+        <TextView android:id="@+id/namePlayer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pseudoPlayer"
+            android:layout_alignLeft="@+id/pseudoPlayer"
+            android:text="pseudo"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+    </TwoLineListItem>
+
+    <ImageButton
+        android:id="@+id/deletePlayer"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_delete"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:background="@android:color/transparent"/>
+
+</RelativeLayout>

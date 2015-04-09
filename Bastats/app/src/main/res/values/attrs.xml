@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<attr name="button_green" format="reference" />
+	<attr name="button_green_small" format="reference" />
+	<attr name="button_grey" format="reference" />
+	<attr name="button_grey_small" format="reference" />
+	<attr name="button_red" format="reference" />
+	<attr name="button_red_small" format="reference" />
+	<attr name="button_orange" format="reference" />
+	<attr name="button_orange_small" format="reference" />
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:gravity="center_vertical"
+    android:weightSum="16">
+   <Button
+       android:id="@+id/change_number_player"
+       android:layout_height="wrap_content"
+       android:text="nb"
+       android:layout_marginRight="5dp"
+       android:layout_width="100dp"/>
+       <!-- android:background="@drawable/button_left_ajouter"-->
+
+
+    <TwoLineListItem xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:minHeight="?android:attr/listPreferredItemHeight"
+        android:mode="twoLine">
+
+        <TextView android:id="@+id/pseudoPlayer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:text="Name of the player"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+
+
+    </TwoLineListItem>
+</LinearLayout>

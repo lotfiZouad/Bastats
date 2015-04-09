@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Place"
+        android:gravity="center_horizontal"
+        android:id="@+id/place" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="4"
+        android:layout_height="wrap_content"
+        android:text="Team name"
+        android:gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:id="@+id/team" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Pts"
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp"
+        android:gravity="center_horizontal"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:clickable="true"
+        android:onClick="modifyPoints"
+        android:id="@+id/pts" />
+
+    <Button android:id="@+id/btn_delete"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="add"
+        />
+
+</LinearLayout>

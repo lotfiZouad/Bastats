@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bastats</string>
+    <string name="team_1">Team 1</string>
+    <string name="team_2">Team 2</string>
+    <string name="score">00</string>
+    <string name="shoot_2pts">2</string>
+    <string name="shoot_3pts">3</string>
+    <string name="rebound_off">Rb</string>
+    <string name="assist">Ast</string>
+    <string name="fault_off">F</string>
+    <string name="turnover">TOV</string>
+    <string name="block">BLK</string>
+    <string name="rebound_def">Rb</string>
+    <string name="fault_def">F</string>
+    <string name="steal">STL</string>
+    <string name="actions">Actions</string>
+    <string name="free_throw">FT</string>
+    <string name="history">History</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_team_selection">TeamSelection</string>
+    <string name="title_activity_interface_match">Interface Match</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="title_activity_joueur_db">PlayerDB</string>
+    <string name="title_activity_action_db">ActionDB</string>
+    <string name="title_activity_temps_de_jeu_db">PlayingTimeDB</string>
+    <string name="title_activity_shoot_sb">ShootSB</string>
+    <string name="title_activity_rebond_db">ReboundDB</string>
+    <string name="title_activity_passe_db">AssistDB</string>
+    <string name="title_activity_faute_db">FaultDB</string>
+    <string name="title_activity_interception_db">StealDB</string>
+    <string name="title_activity_contre_db">BlockDB</string>
+    <string name="title_activity_perte_balle_db">TurnOverDB</string>
+    <string name="title_activity_equipe_db">TeamDB</string>
+    <string name="title_activity_liste_joueurs">ListePlayers</string>
+    <string name="title_activity_stats">Match Stats</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_selection_equipe_tournoi">Selection of tournament teams</string>
+    <string name="title_activity_choix_type_phase">Nouvelle phase</string>
+    <string name="title_activity_options_phase_poule">Features of the group competition phase</string>
+    <string name="dialog_retour">Back</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_confirm">Confirm</string>
+    <string name="pick_a_value">Pick a value</string>
+    <string name="missing_information">Missing Information</string>
+    <string name="button_confirm">CONFIRM</string>
+    <string name="title_activity_navigation_tournoi">Tournament Navigation</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_activity_navigation_drawer_tournament">Tournament Navigation</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="title_activity_tournament_home_screen">Tournament Home</string>
+    <string name="title_activity_new_tournament">New Tournament</string>
+
+    <string name="button_play">Play</string>
+    <string name="match_termine">Finished</string>
+    <string name="pick_date">Pick a date</string>
+    <string name="dialog_ajouter">Add</string>
+    <string name="title_activity_new_player">Add players to the team</string>
+    <string name="title_activity_selection_player">Formation selection</string>
+    <string name="title_activity_selection_teams">Team selection</string>
+    <string name="team">Team</string>
+    <string name="Team">Team</string>
+    <string name="color_jerseys">Color of jerseys</string>
+
+    <string-array name="colors_jerseys_array">
+        <item>Blue</item>
+        <item>Green</item>
+        <item>Red</item>
+        <item>Orange</item>
+        <item>Yellow</item>
+        <item>Brown</item>
+        <item>Black</item>
+        <item>White</item>
+        <item>Grey</item>
+        <item>Purple</item>
+        <item>Pink</item>
+    </string-array>
+    <string name="title_activity_options_phase_results_table">Results Table features</string>
+    <string name="title_activity_navigation_results_table">Finale Phase</string>
+    <string name="title_activity_distribution_results_table">Teams selection</string>
+    <string name="title_activity_select_team_results_table">Teams selection</string>
+    <string name="title_activity_add_ranking">Add a ranking</string>
+    <string name="title_activity_view_stats_match">Match Stats</string>
+    <string name="title_activity_add_team">Add Team</string>
+
+
+</resources>

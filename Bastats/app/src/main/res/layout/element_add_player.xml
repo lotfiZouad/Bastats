@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/calendrier_row_height"
+    android:weightSum="16"
+    android:gravity="center_vertical">
+    <TextView
+        android:id="@+id/number_player"
+        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:gravity="center"
+        android:hint="Number"/>
+
+    <TwoLineListItem xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?android:attr/listPreferredItemHeight"
+        android:mode="twoLine">
+
+        <TextView android:id="@+id/pseudoPlayer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:text="Name of the player"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+        <TextView android:id="@+id/namePlayer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pseudoPlayer"
+            android:layout_alignLeft="@+id/pseudoPlayer"
+            android:text="pseudo"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+    </TwoLineListItem>
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="green"          type="color">#55ff55</item>
+    <item name="green_pressed"  type="color">#22cc22</item>
+    <item name="red"            type="color">#ff5555</item>
+    <item name="red_pressed"    type="color">#cc2222</item>
+    <item name="grey"           type="color">#cccccc</item>
+    <item name="grey_pressed"   type="color">#999999</item>
+    <item name="orange"         type="color">#e77328</item>
+    <item name="orange_pressed" type="color">#B95D31</item>
+    <item name="white"          type="color">#ffffff</item>
+    <item name="black"          type="color">#000000</item>
+    <item name="grey_b"         type="color">#d7d7d7</item>
+    <item name="grey_stats"     type="color">#c4c4c4</item>
+    <item name="black_stats"    type="color">#464646</item>
+    <item name="item_selected"  type="color">#a4a4a4</item>
+    <item name="red_1"          type="color">#ff7a64</item>
+    <item name="green_1"        type="color">#5cbb51</item>
+    <color name="blue">#0000FF</color>
+    <color name="background_stat">#a83a9dff</color>
+    <color name="text_color_stat">#ffffff</color>
+    <color name="text_item_stat">#000000</color>
+    <color name="delimiter_stat">#cccccc</color>
+</resources>

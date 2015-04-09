@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <EditText
+    android:id="@+id/teamB"
+    android:hint="Name Team B"
+    android:layout_centerHorizontal="true"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"/>
+
+    <EditText
+        android:id="@+id/numberPlayerB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/teamB"
+        android:layout_alignParentLeft="true"
+        android:hint="Number" />
+
+    <EditText
+        android:id="@+id/namePlayerB"
+        android:hint="Player B name"
+        android:layout_below="@id/teamB"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
+
+    <Button
+        android:id="@+id/addB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/teamB"
+        android:layout_toRightOf="@+id/teamB"
+        android:layout_alignParentRight="true"
+        android:text="ADD" />
+
+    <ListView
+        android:id="@+id/listB"
+        android:layout_below="@id/addB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </ListView>
+
+
+</RelativeLayout>

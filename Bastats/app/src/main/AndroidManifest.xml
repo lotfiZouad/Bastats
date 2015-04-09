@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.enseirb.pfa.bastats" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".menu.PageStart"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".menu.HomeScreenActivity"
+            android:label="Ecran d&apos;accueil" >
+        </activity>
+        <activity
+            android:name=".menu.PageOptions"
+            android:label="Options activity" >
+        </activity>
+        <activity
+            android:name=".menu.TeamSelection"
+            android:label="@string/title_activity_team_selection" >
+        </activity>
+        <activity
+            android:name=".menu.TeamsChoice"
+            android:label="@string/title_activity_selection_teams" >
+        </activity>
+        <activity
+            android:name=".match.InterfaceMatch"
+            android:label="@string/title_activity_interface_match" >
+        </activity>
+        <activity
+            android:name=".menu.CheckDB"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name=".debug.PlayerDB"
+            android:label="@string/title_activity_joueur_db" >
+        </activity>
+        <activity
+            android:name=".debug.ActionDB"
+            android:label="@string/title_activity_action_db" >
+        </activity>
+        <activity
+            android:name=".debug.PlayingTimeDB"
+            android:label="@string/title_activity_temps_de_jeu_db" >
+        </activity>
+        <activity
+            android:name=".debug.ShootDB"
+            android:label="@string/title_activity_shoot_sb" >
+        </activity>
+        <activity
+            android:name=".debug.ReboundDB"
+            android:label="@string/title_activity_rebond_db" >
+        </activity>
+        <activity
+            android:name=".debug.AssistDB"
+            android:label="@string/title_activity_passe_db" >
+        </activity>
+        <activity
+            android:name=".debug.FaultDB"
+            android:label="@string/title_activity_faute_db" >
+        </activity>
+        <activity
+            android:name=".debug.StealDB"
+            android:label="@string/title_activity_interception_db" >
+        </activity>
+        <activity
+            android:name=".debug.BlockDB"
+            android:label="@string/title_activity_contre_db" >
+        </activity>
+        <activity
+            android:name=".debug.TurnOverDB"
+            android:label="@string/title_activity_perte_balle_db" >
+        </activity>
+        <activity
+            android:name=".debug.TeamDB"
+            android:label="@string/title_activity_equipe_db" >
+        </activity>
+        <activity
+            android:name=".debug.ListPlayersDB"
+            android:label="@string/title_activity_liste_joueurs" >
+        </activity>
+        <activity
+            android:name=".tournament.NavigationGroupCompetitionActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".tournament.DistributionGroupCompetitionActivity"
+            android:label="@string/title_activity_selection_equipe_tournoi" >
+        </activity>
+        <activity
+            android:name=".tournament.SelectionTeamTournamentActivity"
+            android:label="@string/title_activity_selection_equipe_tournoi" >
+        </activity>
+        <activity
+            android:name=".tournament.ChoicePhaseTypeActivity"
+            android:label="@string/title_activity_choix_type_phase" >
+        </activity>
+        <activity
+            android:name=".tournament.OptionsPhaseGroupCompetition"
+            android:label="@string/title_activity_options_phase_poule" >
+        </activity>
+        <activity
+            android:name=".tournament.NavigationDrawerTournament"
+            android:label="@string/title_activity_navigation_drawer_tournament" >
+        </activity>
+        <activity
+            android:name=".tournament.TournamentHomeScreen"
+            android:label="@string/title_activity_tournament_home_screen" >
+        </activity>
+        <activity
+            android:name=".tournament.NewTournament"
+            android:label="@string/title_activity_new_tournament" >
+        </activity>
+        <activity
+            android:name=".launching.AddTeam"
+            android:label="@string/title_activity_add_team" >
+        </activity>
+        <activity
+            android:name=".launching.ActivitySelectionPlayer"
+            android:label="@string/title_activity_selection_player" >
+        </activity>
+        <activity
+            android:name=".launching.ActivityNewPlayer"
+            android:label="@string/title_activity_new_player" >
+        </activity>
+        <activity
+            android:name=".tournament.OptionsPhaseResultsTable"
+            android:label="@string/title_activity_options_phase_results_table" >
+        </activity>
+        <activity
+            android:name=".tournament.NavigationResultsTable"
+            android:label="@string/title_activity_navigation_results_table" >
+        </activity>
+        <activity
+            android:name=".tournament.DistributionResultsTable"
+            android:label="@string/title_activity_distribution_results_table" >
+        </activity>
+        <activity
+            android:name=".tournament.SelectTeamResultsTable"
+            android:label="@string/title_activity_select_team_results_table" >
+        </activity>
+        <activity
+            android:name=".tournament.AddRanking"
+            android:label="@string/title_activity_add_ranking" >
+        </activity>
+        <activity
+            android:name=".stat.ViewStatsMatch"
+            android:label="@string/title_activity_view_stats_match" >
+        </activity>
+    </application>
+
+</manifest>

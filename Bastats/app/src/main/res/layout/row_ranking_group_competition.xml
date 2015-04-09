@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Place"
+        android:gravity="center_horizontal"
+        android:id="@+id/place" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="4"
+        android:layout_height="wrap_content"
+        android:text="Team name"
+        android:gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:id="@+id/team" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Pts"
+        android:gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:id="@+id/pts" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="P"
+        android:gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:id="@+id/play" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="W"
+        android:gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:id="@+id/victory" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="D"
+        android:gravity="center_horizontal"
+        android:id="@+id/draw"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="L"
+        android:gravity="center_horizontal"
+        android:id="@+id/defeat"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Plus"
+        android:gravity="center_horizontal"
+        android:id="@+id/plus"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Minus"
+        android:gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:id="@+id/minus" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="+/-"
+        android:gravity="center_horizontal"
+        android:id="@+id/difference"
+        android:textColor="@color/black"
+        />
+
+</LinearLayout>

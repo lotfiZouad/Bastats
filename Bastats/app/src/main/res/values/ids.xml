@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="shoot_2" type="id"/>
+    <item name="shoot_2f" type="id"/>
+    <item name="rebound_off" type="id"/>
+    <item name="fault_off" type="id"/>
+    <item name="turnover" type="id"/>
+    <item name="block" type="id"/>
+    <item name="rebound_def" type="id"/>
+    <item name="fault_def" type="id"/>
+    <item name="steal" type="id"/>
+
+</resources>

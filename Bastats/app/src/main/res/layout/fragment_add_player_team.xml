@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2">
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/name_teamA"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/white"
+                android:background="@color/orange"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="Team A"
+                android:gravity="center"/>
+            <ListView
+                android:id="@+id/listview_selection_player_A"
+                android:layout_below="@id/name_teamA"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="match_parent">
+            </ListView>
+
+
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="3dp"
+            android:layout_height="match_parent"
+            android:background="@color/grey_stats"/>
+
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/name_teamB"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/white"
+                android:background="@color/orange"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="Team B"
+                android:gravity="center"/>
+            <ListView
+                android:id="@+id/listview_selection_player_B"
+                android:layout_below="@id/name_teamB"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+            </ListView>
+
+
+
+        </RelativeLayout>
+    </LinearLayout>
+    </FrameLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/b"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true">
+
+
+
+        <Button
+            android:id="@+id/button_teamA"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="ADD A PLAYER"
+            android:background="@drawable/button_left_add"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/black_stats"/>
+
+        <Button
+            android:id="@+id/button_next"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="NEXT"
+            android:background="@drawable/button_dialog"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/black_stats"/>
+
+        <Button
+            android:id="@+id/button_teamB"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="ADD A PLAYER"
+            android:background="@drawable/button_left_add"/>
+
+
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black_stats"
+        android:layout_above="@id/b"/>
+</RelativeLayout>

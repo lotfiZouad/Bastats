@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:layout_width="155dp"
+        android:layout_height="wrap_content">
+        <TextView android:id="@+id/action"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="center_horizontal"
+            android:text="coucoucoucoucocu"
+            />
+
+    </RelativeLayout>
+
+        <ImageButton android:id="@+id/deleteAction"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+
+            android:layout_gravity="center_horizontal"
+            android:layout_alignParentRight="true"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_stat_name"
+            />
+
+</RelativeLayout>

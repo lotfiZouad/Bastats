@@ -1,0 +1,54 @@
+<resources>
+
+	<!-- Base application theme. -->
+
+	<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+		<item name="@attr/button_green">@style/button_green</item>
+		<item name="@attr/button_green_small">@style/button_green_small</item>
+		<item name="@attr/button_red">@style/button_red</item>
+		<item name="@attr/button_red_small">@style/button_red_small</item>
+		<item name="@attr/button_orange">@style/button_orange</item>
+		<item name="@attr/button_orange_small">@style/button_orange_small</item>
+		<item name="@attr/button_grey">@style/button_grey</item>
+		<item name="@attr/button_grey_small">@style/button_grey_small</item>
+	</style>
+
+	<style name="spinner">
+		<item name="android:padding">10dp</item>
+		<item name="android:layout_margin">10dp</item>
+	</style>
+
+	<style name="button_red" parent="@android:style/Widget.Button">
+		<item name="android:background">@drawable/button_red</item>
+		<item name="android:textColor">@color/black</item>
+	</style>
+	<style name="button_red_small" parent="button_red">
+		<item name="android:minWidth">50dp</item>
+	</style>
+
+	<style name="button_green" parent="@android:style/Widget.Button">
+		<item name="android:background">@drawable/button_green</item>
+		<item name="android:textColor">@color/black</item>
+	</style>
+	<style name="button_green_small" parent="button_green">
+		<item name="android:minWidth">50dp</item>
+	</style>
+
+	<style name="button_grey" parent="@android:style/Widget.Button">
+		<item name="android:background">@drawable/button_grey</item>
+		<item name="android:textColor">@color/black</item>
+	</style>
+	<style name="button_grey_small" parent="button_grey">
+		<item name="android:minWidth">50dp</item>
+	</style>
+
+	<style name="button_orange" parent="@android:style/Widget.Button">
+		<item name="android:background">@drawable/button_orange</item>
+		<item name="android:textColor">@color/white</item>
+	</style>
+	<style name="button_orange_small" parent="button_orange">
+		<item name="android:minWidth">50dp</item>
+	</style>
+
+
+</resources>
